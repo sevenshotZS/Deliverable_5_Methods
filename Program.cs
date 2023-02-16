@@ -1,7 +1,7 @@
 ﻿/* 
  Author: Zack Slezak
  Date: 2/16/2023
- Comments: This C# Consolole application code demostrates the use 
+ Comments: This C# Console application code demostrates the use 
            of two methods: 
            (1) Randomly populating an array with integers numbers between 10 and 50
            (2) Returning the summation of all the elements of an array
@@ -13,7 +13,7 @@ namespace Deliverable_5_Methods
     internal class Program
     {
      
-            //Generates an
+            //Generates an a random array
             static int[] random_array(int array_len)
             {
             
@@ -28,7 +28,7 @@ namespace Deliverable_5_Methods
                
            
             }
-
+            //Calculates the sum of the array's attributes
             static int sum(int[] array)
             {
                 int sum = 0;
@@ -39,7 +39,7 @@ namespace Deliverable_5_Methods
                 return sum;
             }
 
-
+            //Implements both methods
             static void Main(string[] args)
             {
             try { 
